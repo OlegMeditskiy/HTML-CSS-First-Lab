@@ -74,35 +74,37 @@ h1 {
     position: relative;
 }
 
-
 .photo {
-  float: left;
-  position: absolute;
-  top: 3%;
-  left: 3%;
-  height: 30vw;
-  width: auto;
+    float: left;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    height: 30vw;
+    width: auto;
 }
 
-.desc{
+.desc {
     position: absolute;
     top: 3%;
     left: 40%;
-
 }
-.desc p{
+
+.desc p {
     font-size: 2vw;
 }
-.desc2{
+
+.desc2 {
     position: absolute;
     top: 50%;
     left: 40%;
     float: right;
 }
-.desc2 p{
+
+.desc2 p {
     font-size: 2vw;
 }
-.desc2 ul{
+
+.desc2 ul {
     font-size: 2vw;
 }
 
