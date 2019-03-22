@@ -145,7 +145,6 @@ h1 {
 .footer {
     grid-area: footer;
     background: black;
-  
 }
 .footer p{
     text-align: left;

@@ -1,8 +1,8 @@
 .grid-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: lfr;
+    grid-template-columns: 100%;
     grid-template-rows: 10% 5% 70% auto;
     grid-template-areas: 'header' 'nav' 'main' 'footer';
 }
@@ -14,7 +14,8 @@
 
 .header img#img1 {
     margin-left: 20px;
-    width: 70px;
+    width: 10vw;
+    height: auto;
     float: right;
 }
 
@@ -70,6 +71,39 @@ h1 {
     grid-template-rows: 40% 40%;
     grid-template-areas: 'picture description' 'picture price';
     justify-content: space-around;
+    position: relative;
+}
+
+
+.photo {
+  float: left;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  height: 30vw;
+  width: auto;
+}
+
+.desc{
+    position: absolute;
+    top: 3%;
+    left: 40%;
+
+}
+.desc p{
+    font-size: 2vw;
+}
+.desc2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    float: right;
+}
+.desc2 p{
+    font-size: 2vw;
+}
+.desc2 ul{
+    font-size: 2vw;
 }
 
 .product {
@@ -97,10 +131,10 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.description ul li{
+
+.description ul li {
     text-align: left;
 }
-
 
 .price {
     grid-area: price;
@@ -109,20 +143,19 @@ h1 {
     padding-bottom: 10px;
 }
 
-
-
 .footer {
     grid-area: footer;
     background: black;
-  
 }
-.footer p{
+
+.footer p {
     text-align: left;
     color: white;
     padding-left: 20px;
     padding-top: 50px;
 }
-.footer p img{
+
+.footer p img {
     padding-left: 20px;
     padding-right: 20px;
     float: right;
@@ -150,5 +183,4 @@ h1 {
     .nav ul li {
         padding-right: 10px;
     }
-
 }
