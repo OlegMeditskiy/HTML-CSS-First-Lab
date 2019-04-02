@@ -80,15 +80,17 @@ h1 {
     left: 3%;
     height: 35vw;
     width: auto;
+    padding: 5px;
+    background: white;
 }
 
 .desc {
     position: absolute;
     top: 3vw;
-    left: 40%;
-    border: 2px solid black;
+    left: 45%;
+    
     padding: 10px;
-    width: auto;
+    background: white;
 }
 
 .desc p {
@@ -98,11 +100,11 @@ h1 {
 .desc2 {
     position: absolute;
     top: 20vw;
-    left: 40%;
-    border: 2px solid black;
-    padding: 10px;
-    width: auto;
+    left: 45%;
     
+    padding: 10px;
+    
+    background: white;
 }
 
 .desc2 p {
